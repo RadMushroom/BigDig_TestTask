@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BigDig_TestTask_B</string>
+    <string name="exit_message">This application is not standalone!\n Closing after:</string>
+</resources>

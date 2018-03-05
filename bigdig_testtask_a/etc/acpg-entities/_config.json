@@ -1,0 +1,13 @@
+{
+  "syntaxVersion": 4,
+  "packageName": "com.example.radmushroom.bigdig_testtask_A",
+  "providerJavaPackage": "com.example.radmushroom.bigdig_testtask_A.provider",
+  "authority": "${applicationId}.provider",
+  "providerClassName": "LinkProvider",
+  "databaseFileName": "links.db",
+  "databaseVersion": 1,
+  "sqliteOpenHelperClassName": "LinkSQLiteOpenHelper",
+  "sqliteOpenHelperCallbacksClassName": "LinkSQLiteOpenHelperCallbacks",
+  "useSupportLibrary": true,
+  "debugLogsFieldName": "LOG_DEBUG_PROVIDER"
+}
