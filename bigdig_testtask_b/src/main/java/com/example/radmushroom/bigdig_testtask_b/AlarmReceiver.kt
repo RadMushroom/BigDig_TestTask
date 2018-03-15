@@ -34,6 +34,9 @@ class AlarmReceiver : BroadcastReceiver() {
                     saveToFile(context, it)
                 }
                 linkSelection.delete(context)
+                context.sendBroadcast(Intent("com.example.radmushroom.bigdig_testtask_A.view.LINK_DELETED").apply {
+                    putExtra("id", id)
+                })
                 Toast.makeText(context, "Table Row №$id was deleted!", Toast.LENGTH_SHORT).show()
             }
         }

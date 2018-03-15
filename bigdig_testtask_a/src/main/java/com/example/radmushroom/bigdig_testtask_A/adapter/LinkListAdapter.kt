@@ -66,4 +66,11 @@ class LinkListAdapter(private val clickListener: OnPositionClickListener): BaseR
         }
 
     }
+
+    fun removeItemWithId(id: Long) {
+        data.first { it.id == id }.let {
+            val position = data.indexOf(it)
+            removeItem(position)
+        }
+    }
 }
