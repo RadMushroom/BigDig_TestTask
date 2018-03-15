@@ -25,7 +25,7 @@ class StartFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        editText.setText("https://images.unsplash.com/photo-1502147508239-bece272fc008?ixlib=rb-0.3.5&s=96d45b32a8dd031bebe8174dfa91b897&auto=format&fit=crop&w=811&q=80")
+        editText.setText("https://images.unsplash.com/photo-1520528938231-ca6d3d2f9608?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=714f5bbdb806c3e1879820aadd933a45&auto=format&fit=crop&w=1534&q=80")
         startAppB.setOnClickListener {
             val inputText = editText.text.toString().trim()
             if (!TextUtils.isEmpty(inputText)) {
